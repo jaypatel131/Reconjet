@@ -13,4 +13,5 @@
 -> ./help.sh 			-> watch documentation of this file carefully.<br />
 -> ./Reconjet.py -d inscope.txt<br />
 -> for more info go to img directory.<br />
-![alt text](Reconjet/img/recon.png)
+![alt text](https://github.com/jaypatel131/Reconjet/blob/main/img/recon.png)
+![alt text](https://github.com/jaypatel131/Reconjet/blob/main/img/recon2.png)
