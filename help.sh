@@ -16,9 +16,16 @@ sudo apt install gobuster
 sudo apt install nikto
 sudo apt install eyewitness
 go install github.com/tomnomnom/waybackurls@latest
+sudo mv ~/go/bin/assetfinder /usr/bin/assetfinder
+sudo mv ~/go/bin/hakrawler /usr/bin/hakrawler
+sudo mv ~/go/bin/haktrails /usr/bin/haktrails
+sudo mv ~/go/bin/gau /usr/bin/gau
+sudo mv ~/go/bin/httprobe /usr/bin/httprobe
+sudo mv ~/go/bin/waybackurls /usr/bin/waybackurls
 echo "-------------------------------------------------------------------------------"
 echo "please go for documentation of haktrails because u have to add api key for this"
 echo "-------------------------------------------------------------------------------"
+echo "----------------------------manual changing------------------------------------"
 echo " NOW GO TO Main DIR ~ by using cd "
 echo " go to /go/bin directory "
 echo " command cd go/bin/ "
