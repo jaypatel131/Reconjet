@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git clone https://github.com/rbsec/dnscan.git
+git clone https://github.com/nmmapper/dnsdumpster.git
+git clone https://github.com/nahamsec/lazys3.git
 go install github.com/tomnomnom/assetfinder@latest
 sudo apt install amass
 sudo apt install whois
@@ -25,14 +28,7 @@ sudo mv ~/go/bin/waybackurls /usr/bin/waybackurls
 echo "-------------------------------------------------------------------------------"
 echo "please go for documentation of haktrails because u have to add api key for this"
 echo "-------------------------------------------------------------------------------"
-echo "----------------------------manual changing------------------------------------"
-echo " NOW GO TO Main DIR ~ by using cd "
-echo " go to /go/bin directory "
-echo " command cd go/bin/ "
-echo "---------------------------------- then ---------------------------------------"
-echo "sudo mv assetfinder /usr/bin/assetfinder"
-echo "sudo mv haktrails /usr/bin/haktrails"
-echo "sudo mv hakrawler /usr/bin/hakrawler"
-echo "sudo mv gau /usr/bin/gau"
-echo "sudo mv httprobe /usr/bin/httprobe"
-echo "sudo mv waybackurls /usr/bin/waybackurls"
+cd $PATH/dnscan/
+pip install -r requirements.txt
+cd $PATH/../dnsdumpster/
+pip3 install -r requirements.txt
