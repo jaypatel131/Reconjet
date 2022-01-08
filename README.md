@@ -9,7 +9,7 @@
    <br /> ⇒ @xroot0rayan = https://www.instagram.com/xroot0rayan/
 
 <h1>Usage</h1>
--> chmod +x Reconjet.py help.sh<br />
+-> chmod +x Reconjet.py requirement.sh <br />
 -> ./requirement.sh  		-> watch documentation of this file carefully.<br />
 -> ./Reconjet.py -d inscope.txt<br />
 -> for more info go to img directory.<br />
