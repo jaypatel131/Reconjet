@@ -178,7 +178,7 @@ with open(filename, "r") as file:
     print(readline)
 
 os.system("figlet -w 100 -c reconJET")
-print("\t\t\t    Made with love by Xroot0rayan & Mr.Cry0niX")
+print("\t\t\t    Made with love by Xroot0rayan")
 print("------------------------------------------------------------------------------------------------------")
 print("\t\t\t\t    file open : "+str(filename))
 while(True):
