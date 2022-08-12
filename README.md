@@ -12,7 +12,7 @@
 -> chmod +x Reconjet.py requirement.sh <br />
 -> ./requirement.sh  		-> watch documentation of this file carefully.<br />
 -> ./Reconjet.py -d inscope.txt<br />
--> <h5>Here I mention tools more then you need in this tool, for recon....</h5>
+<h5>Here I mention tools more then you need in this tool, for recon....</h5>
 -> for more info go to img directory.<br />
 <p align="center">
   <img src="https://github.com/jaypatel131/Reconjet/blob/main/img/recon.png">
